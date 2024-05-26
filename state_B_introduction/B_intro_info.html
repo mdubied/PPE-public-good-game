@@ -1,0 +1,13 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Introduction{{ endblock }}
+
+{{ block content }}
+
+<p> 
+    As explained in the presentation, you will play a game in a group of 4 persons for {{C.NUM_ROUNDS}} consecutive rounds. Your goal is to maximise your wealth, which will be shown after each of the rounds. Your initial wealth is {{C.INITIAL_ENDOWMENT}}. 
+        
+{{ formfields }}
+
+{{ next_button }}
+
+{{ endblock }}
